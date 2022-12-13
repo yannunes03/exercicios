@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Formulário</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <p>Fieldset: Define um conjunto de campos. Exemplo de uso</p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Tag legend</legend>
+        <p>legend: Define um título/legenda para um conjunto de campos "fieldset"</p>        
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Tag Legend</legend>
+            <label for="nome">Exemplo Tag label:</label>
+            <input type="text" minlength="3" id="nome" name="nome" required /><!--Tag Input: Utilizado para inserir um campo para preenchimento-->
+
+            <label for="data_nascimento">Exemplo Tag Label 2:</label>
+            <input type="text" id="data_mascimento" name="data_mascimento">
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Tag Textarea (Caixa de texto): </legend>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de uso das Tags Select & Option: </legend>
+            <select name="Exemplo de Uso da Tag select:" id="">
+                <option value="Valor 1:">Exemplo de Uso da Tag Option 1</option>
+                <option value="Valor 1:">Exemplo de Uso da Tag Option 2</option>
+                <option value="Valor 1:">Exemplo de Uso da Tag Option 3</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de uso da Tag Button:</legend>
+            <button>Botão 1</button>
+            <button>Botão 2</button>
+            <button>Botão 3</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Uso da Tag optgroup:</legend>
+            <select name="Exemplo de uso da Tag Optgroup:" id="">
+                <optgroup label="otpgroup 1:">
+                    <option value="Opção 1.1">Opção 1.1</option>
+                    <option value="Opção 1.2">Opção 1.2</option>
+                    <option value="Opção 1.3">Opção 1.3</option>
+                </optgroup>
+                <optgroup label="optgroup 2:">
+                    <option value="Opção 2.1">Opção 2.1</option>
+                    <option value="Opção 2.2">Opção 2.2</option>
+                    <option value="Opção 2.3">Opção 2.3</option>
+                </optgroup>
+            </select>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Uso - Tipo de Campo: Password</legend>
+            <p>Password: Utilizado para inserir o recurso de máscara para o texto através de asteriscos</p>
+            <p>required: Utilizado para determinar que um campo é obrigatório</p>
+            <label for="Senha">Senha:</label>
+            <input type="password" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Uso - Tipo de Campo: Hidden</legend>
+            <p>Hidden: Tipo de campo utilizado para esconder o campo para não ser exibido no navegador</p>
+            <label for="Nome">Nome:</label>
+            <input type="text">
+            <label for="Senha">Campo Escondido:</label>
+            <input type="hidden">
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Uso - Tipo de Campo: radio</legend>
+            <p>radio: Usado para aplicar a seleção única/exclusiva de valor</p>
+            <p>Sim<input type="radio" name="webmaster" value="Sim" /></p>
+            <p>Não<input type="radio" name="webmaster" value="Não"></p>
+            <p>Talvez<input type="radio" name="webmaster" value="Talvez"/></p>
+            <p>Quem Sabe<input type="radio" name="webmaster" value="Quem Sabe"/></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Uso - Tipo de Campo: checkbox</legend>
+            <p>radio: Usado para aplicar a seleção única/exclusiva de valor</p>
+            <p>Sim<input type="checkbox" name="webmaster" value="Sim" /></p>
+            <p>Não<input type="checkbox" name="webmaster" value="Não"></p>
+            <p>Talvez<input type="checkbox" name="webmaster" value="Talvez"/></p>
+            <p>Quem Sabe<input type="checkbox" name="webmaster" value="Quem Sabe"/></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Uso - Tipo de campo: Submit </legend>
+            <input type="text">
+            <button type="submit">Enviar</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Uso - Tipo de campo: Reset</legend>
+            <input type="text" name="email">
+            <input type="reset">
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Uso - Tipo de Campo: placeholder</legend>
+            <label for="">Nome:</label>
+            <input type="text" placeholder="Insira Seu Nome">
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Uso - Tipo de Campo: pattern</legend>
+            <label for="placa">Nº telefone:</label>
+            <input type="text" name="website" pattern="">
+        </fieldset>
+
+        <fieldset>Exmplo de Uso - Tipo de autofocus
+        <input type="text" autofocus>
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Uso - Tipo de Campo: tel
+
+                <label for="Tel">tel:</label>
+                <input type="tel" tel pattern="">
+            </legend>
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Uso - Tipo de Campo:date</legend>
+            <label for="hora">Data:</label>
+            <input type="date">
+        </fieldset>
+
+        <fieldset>
+            <legend>Exemplo de Uso - Tipo de Campo: number</legend>
+            <label for="">número:</label>
+            <input type="number">
+        </fieldset>
+    </form>
+</body>
+</html>
